@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jumbotron{
+	margin-top: 10px;
+	background-color: #AEE5ED;
+	color: #F0853B;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #AEE5ED;
+  border: 1px solid #020202;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #F0853B;
+  text-align: center;
+  background-color: #AEE5ED; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#AEE5ED), to(#F0FFFF));
+  background-image: -webkit-linear-gradient(top, #AEE5ED 0%, #F0FFFF 100%);
+  background-image:      -o-linear-gradient(top, #AEE5ED 0%, #F0FFFF 100%);
+  background-image:         linear-gradient(to bottom, #AEE5ED 0%,#F0FFFF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AEE5ED', endColorstr='#F0FFFF',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #020202;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #AEE5ED;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #020202;
+    border-left: 1px solid #020202;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .row{
+		margin-top: 40px;
+	    margin-left: 50px;
+	    margin-right: 50px;
+	}
+	
+	#myCarousel{
+		margin-top: 10px;
+	}
+	
+	.btn-default{
+		background-color: #AEE5ED; 
+		color: #F0853B;
+	}
+	
+	h2{
+		color: #F0853B;
+	}
+	
+	.well{
+		margin-top: 20px;
+		background-color: lemonchiffon;
+	}
+	
+	.span3{
+		display: block;
+	}
+	
+	.span5{
+		position: absolute;
+		top: 54%;
+		left:50%;
+	}
+	
+	.btn-primary{
+		background-color: #AEE5ED;
+		color: black;
+	}
+	
+	.footer{
+		text-align: center;
+	}
+	
+	.img-responsive{
+		width: 400px;
+		height: 300px;
+	}
+	
+	.page-header{
+		color: #F0853B; 
+	}
+	
+	h3{
+		color: #F0853B;
+	}
